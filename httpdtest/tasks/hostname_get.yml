@@ -1,0 +1,5 @@
+---
+
+- name: Get hostname through 
+  debug:
+    msg: "{{ansible_facts.python_version}}"
